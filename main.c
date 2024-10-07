@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-void function(){
-	printf("Hello world");
-}
+
 
 //Init
 
@@ -36,7 +34,6 @@ int main() {
 	//Drawing
 		BeginDrawing();
 			ClearBackground(backgroundColor);
-			DrawRectangle(0, 0, 200, 500, RED);
 		EndDrawing();
 	}
 	CloseWindow();
