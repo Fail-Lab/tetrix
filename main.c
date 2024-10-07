@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-
+void function(){
+	printf("Hello world");
+}
 
 //Init
 
@@ -19,7 +21,7 @@ void Init(Color backgroundColor) {
 
 int main() {
 	//Init
-	Color backgroundColor = (Color) {200, 200, 200, 255};
+	Color backgroundColor = (Color) {0, 0, 0, 0};
 	Init(backgroundColor);
 	int screenWidth = GetScreenWidth();
 	int screenHeight = GetScreenHeight();
