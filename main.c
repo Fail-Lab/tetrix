@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <math.h>
 
-<<<<<<< HEAD
-=======
 #define GRID_HEIGHT 20
 #define GRID_WIDTH 10
 
@@ -14,8 +12,6 @@ typedef struct {
 	Color color;
 } Pixel;
 
-
->>>>>>> refs/remotes/origin/main
 //Init
 
 void Init(Color backgroundColor) {
@@ -35,8 +31,7 @@ int main() {
 	Init(backgroundColor);
 	int screenWidth = GetScreenWidth();
 	int screenHeight = GetScreenHeight();
-<<<<<<< HEAD
-=======
+
 	Pixel mat[GRID_WIDTH][GRID_HEIGHT];
 	for (int i = 0; i < GRID_WIDTH; i++) {
 		for (int j = 0; j < GRID_HEIGHT; j++) {
@@ -45,7 +40,7 @@ int main() {
 		}
 	}
 
->>>>>>> refs/remotes/origin/main
+
 	while (!WindowShouldClose()) {
 	//Resize
 		if (IsWindowResized()) {
