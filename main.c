@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-void function(){
-	printf("Hello world");
-}
-
 //Init
 
 void Init(Color backgroundColor) {
