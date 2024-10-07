@@ -16,8 +16,9 @@
 
 ## III. Steps
 
-- Ouvrir une fenêtre
-- afficher des blocs
-- inclure une gravité
-- déplacer les blocs
-- détecter une ligne et la supprimer
+- [x] Ouvrir une fenêtre
+- [ ] Afficher l'interface de jeu
+- [ ] Afficher des blocs
+- [ ] Iinclure une gravité
+- [ ] Déplacer les blocs
+- [ ] Détecter une ligne et la supprimer
