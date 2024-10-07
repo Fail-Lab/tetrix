@@ -34,6 +34,7 @@ int main() {
 	//Drawing
 		BeginDrawing();
 			ClearBackground(backgroundColor);
+			DrawRectangle(0, 0, 200, 500, RED);
 		EndDrawing();
 	}
 	CloseWindow();
